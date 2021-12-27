@@ -1,0 +1,8 @@
+SELECT FIRST_NAME as WORKER_NAME
+FROM Worker
+
+SELECT DISTINCT DEPARTMENT
+FROM Worker
+
+select top 5 * from TABLE
+order by productId desc
